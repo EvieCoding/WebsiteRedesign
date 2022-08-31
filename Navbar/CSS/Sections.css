@@ -1,0 +1,114 @@
+﻿body {
+}
+
+/* section-about-default */
+.about-theme {
+	position: relative;
+	padding-top: 150px;
+	padding-right: 0;
+	padding-left: 0;
+    /* margin: 0; removes possible gaps between sections. Add to all sections. */
+    margin: 0; 
+	padding-bottom: 170px;
+	background: rgb(193,166,24); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+}
+
+.about-theme h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* section - color-theme-1 */
+.color-theme-1 {
+	/*padding: 80px 0 100px 0;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+	background: rgb(3,39,49); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	color: #5b777f;
+}
+.color-theme-1 h4 {
+	color: #81969c;
+	text-transform: uppercase;
+}
+
+/* section - color-theme-2 */
+.color-theme-2 {
+	position: relative;
+    padding-top: 100px;
+	padding-top: 100px;
+	padding-right: 0;
+	padding-left: 0;
+    /* margin: 0; removes possible gaps between sections. Add to all sections. */
+    margin: 0; 
+	padding-bottom: 170px;
+	background: rgb(193,166,24); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+}
+
+
+.space {
+	margin-top: 40px;
+}
+#section-groups i.fa {
+	font-size: 40px;
+	border: 0;
+	width: 100px;
+	height: 80px;
+	padding: 22px 25px;
+	background: #032934;
+	margin-bottom: 6px;
+	border-radius: 10%;
+	color: #f3ca27;
+	transition: all 0.5s;
+}
+#section-groups .service:hover>i.fa {
+	background: #0b3540;
+}
+/*==========================
+Formats the 3 images  
+=========================== */
+
+.member-photo {
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+	border-radius:50%;	
+	margin: 0 0 20px 0;
+}
+.member-photo img {
+	border-radius:50%;
+    width: 150px;	
+}
+
+.team-detail h4 {
+	font-weight: 700;
+}
+
+section{
+    margin-top: 40px;
+}
+
+/* ========================================
+Media queries
+========================================= */
+@media (max-width: 767px) {
+	
+	.team-member,.col-lg-4 {
+		margin-bottom: 30px;
+	}
+	
+}
